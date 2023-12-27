@@ -22,3 +22,6 @@ brew install --cask dropbox
 # killall Dock
 # cp com.apple.finder.plist ~/Library/Preferences/
 # killall Finder
+
+# Disable spotlight hotkey, to use raycast insted, needs logout/in
+# /usr/libexec/PlistBuddy -c "Set ':AppleSymbolicHotKeys:64:enabled' 'false'" "~/Library/Preferences/com.apple.symbolichotkeys.plist"
