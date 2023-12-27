@@ -16,8 +16,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 brew install mackup
 brew install --cask dropbox
 
-# TODO: login and wait for dropbox, before mackup restore,
+# TODO: login and wait for dropbox, before mackup restore, then brew bundle
 
-# cp com.apple.dock.plist ~/alex/Library/Preferences/
+# cp com.apple.dock.plist ~/Library/Preferences/
 # killall Dock
-# cp 
+# cp com.apple.finder.plist ~/Library/Preferences/
+# killall Finder
