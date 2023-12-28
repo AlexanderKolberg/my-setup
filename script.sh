@@ -3,8 +3,9 @@ mkdir ~/dev
 mkdir ~/dev/work
 mkdir ~/dev/personal
 
-# Screenshot folder
+# Screenshot folder, and location
 mkdir ~/screenshots
+defaults write com.apple.screencapture "location" -string "~/screenshots" && killall SystemUIServer
 
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
